@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <script>
+                    // reveserse krnahai ke liye hai
+
+
+    //   let myname="mrea namaw dharmidner hai ";
+    //   let words_ko_split =myname.split(" ");
+    //   words_ko_split.reverse();
+    //   let printkrwnahai=words_ko_split.join(" ");
+    //   console.log(printkrwnahai);
+
+
+
+
+
+//  only single word ko revese krne kel iye 
+  // let demon="dhrminder";
+  // let printkrwnahai= demon.split("").reverse();
+  //  console.log( printkrwnahai);
+
+
+//    question solve it 
+
+
+
+/*  factorial find krta hu simple sa */
+// const n=5;
+// let fact=1;
+// for(let i=1;i<=n;i++){
+//  fact =fact*i;
+// }
+// console.log(fact);
+
+
+
+// using   not  recusion fucntio`
+// function recusion(n){
+
+// let fact=1;
+//   for(let i=1;i<=n;i++){
+//  fact =fact*i;
+// }
+// return fact;
+// }
+// console.log(recusion(5));
+
+
+
+// recusion mai krte hai functionami 
+// function recusion_bnao(n){
+//   // let fact=1;
+// if(n===0||n===1){
+//   return 1;
+// }else{
+//   return n*recusion_bnao(n-1)
+// }
+// }
+// console.log(recusion_bnao(5));
+
+// question  hai simple the new trick unlock than you want 
+// let base=2;
+// let expo=3;
+// let cal = Math.pow(base,expo);
+// console.log(cal);
+//  same yahi quesion hum fundtion maibhikrnege
+
+
+
+// function cal(base,expo){
+//   return Math.pow(base,expo);
+// }
+// console.log(cal(2,3));
+
+
+
+// let n=5;
+// let sum=0;
+// for(let i=1;i<=n;i++){
+//   sum =sum+i;
+// }
+// console.log(sum);
+
+
+// let n=10;
+// for(let i=1;i<=n;i++){
+//   console.log(i);
+// }
+
+// function line_mai(n,i){
+
+//  if(n<=i){
+//   return n
+//  }else{
+//   return line_mai(n-1,i);
+//  }
+
+// }
+// line_mai(5,5)
+
+// recusrsive multiplication
+
+// let m=5;
+// let n=10;
+
+//  function mutliplication(m,n){
+// if(n<m)
+// return (m,n); 
+// else if(m!=0) 
+//   return( m+mutliplication(m,n-1));
+// else
+//   return 0;
+
+  
+//  }
+
+
+//  console.log(mutliplication(5,10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function rukja(x, y) 
+// { 
+//   if ( y != 0) 
+//         return (x + rukja(x, y - 1)); 
+  
+//     else
+//         return 0;
+// } 
+//   console.log(rukja(10,5))
+
+// simple hum loop se 5 tk pritnkrnge 
+
+
+
+
+
+// let n=5;
+// for(let i=0;i<=n;i++){
+// console.log(i)
+// }
+
+function solve(n) {
+  if (n <= 0) {
+    return n;  // Base case to stop recursion
+  } else {
+    console.log("*".repeat(n).trim());
+  }
+  return (n+solve((n - 1)));  // Recursive call
+}
+
+// Example usage:
+solve(5); 
+
+
+
+  </script>
+
+
+</body>
+</html>
