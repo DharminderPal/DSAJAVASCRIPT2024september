@@ -48,3 +48,38 @@ Home Page
 Menu Page
 
 Deployment (5 Marks)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+json data 
+
+
+https://raw.githubusercontent.com/saksham-accio/f2_contest_3/main/food.json
+
+how to design your website like this on figma 
+https://www.figma.com/design/nUaIMT5VuhX92Ijv9RnqBy/Food-Menu-F3?node-id=0-1&p=f
+
+
+**********************this is  your project based on your upgrade skil ******************************
+
+
+
+
+
+
+
+
+
+
+
